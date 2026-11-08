@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio2</title>
+</head>
+<body>
+    <script>
+        let idade = Number(prompt("Quantos anos você tem?"));
+
+        if (idade >= 18) {
+            alert("Você já pode tirar a carteira de motorista.");
+        } else if (idade >= 16) {
+            alert("Você já pode votar, mas ainda não dirigir.");
+        } else {
+            let falta = 18 - idade;
+            alert("Faltam " + falta + " anos para a carteira.");
+        }
+
+        // Teste do "Sua vez": alert(idade + 1)
+        // Com Number: se digitar 25, mostra 26 (soma de verdade).
+        // Sem Number: se digitar 25, mostra 251 (junta como texto).
+
+        // >= significa "maior ou igual a".
+        // Precisamos do Number porque o prompt devolve sempre texto, e o Number transforma esse texto em número para comparar e fazer conta.
+    </script>
+</body>
+</html>

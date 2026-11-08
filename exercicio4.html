@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio4</title>
+</head>
+<body>
+    <script>
+        let filmes = ["Duna", "Pecadores", "Batman"];
+
+        alert("Meu filme favorito é " + filmes[0]);
+        alert("Tenho " + filmes.length + " filmes na lista");
+
+        filmes.push("Cidade de Deus");
+        alert("Agora são " + filmes.length + " filmes");
+        alert("O último é " + filmes[3]);
+
+        alert(filmes[10]);
+
+        // O primeiro item é o [0] porque a contagem do array começa no 0, não no 1.
+        // O push colocou um item novo no fim da lista.
+        // filmes[10] mostra "undefined", porque não existe nada na posição 10.
+    </script>
+</body>
+</html>

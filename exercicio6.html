@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio6</title>
+</head>
+<body>
+    <script>
+        let tarefas = [];
+
+        let quantas = Number(prompt("Quantas tarefas?"));
+
+        for (let i = 1; i <= quantas; i++) {
+            let tarefa = prompt("Digite a tarefa " + i + " de " + quantas);
+            tarefas.push(tarefa);
+        }
+
+        document.write("<h2>Tarefas da semana</h2>");
+
+        for (let i = 0; i < tarefas.length; i++) {
+            document.write("• " + tarefas[i] + "<br>");
+        }
+
+        document.write("<p>Total: " + tarefas.length + " tarefas cadastradas</p>");
+
+        // O array começa vazio porque as tarefas ainda não existem: elas são adicionadas com o push conforme a pessoa digita.
+        // O primeiro for começa no 1 porque conta tarefas para perguntar (tarefa 1 de 3), do jeito que a gente conta no dia a dia.
+        // O segundo for começa no 0 porque anda pelas posições do array, e a primeira posição é a 0.
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio8</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Qual é o seu nome?");
+        let interesses = [];
+        let item = prompt("Digite algo que você curte (ou fim para parar)");
+
+        while (item !== "fim") {
+            interesses.push(item);
+            item = prompt("Mais um? (ou fim para parar)");
+        }
+
+        let aprender = prompt("O que você quer aprender a criar?");
+
+        document.write("<h1>" + nome + "</h1>");
+
+        if (interesses.length === 0) {
+            document.write("Você não contou nenhum interesse.");
+        } else {
+            document.write("<p>Coisas que eu curto:</p>");
+            for (let i = 0; i < interesses.length; i++) {
+                document.write("• " + interesses[i] + "<br>");
+            }
+            document.write("<p>Total de interesses: " + interesses.length + "</p>");
+        }
+
+        document.write("<p>Quero aprender a criar: " + aprender + "</p>");
+
+        // Aqui é while e não for porque não sabemos quantos interesses a pessoa vai digitar. O while repete até ela escrever fim, e o for precisa saber a quantidade antes.
+    </script>
+</body>
+</html>

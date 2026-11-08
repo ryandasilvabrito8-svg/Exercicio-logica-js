@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio3</title>
+</head>
+<body>
+    <script>
+            document.write("<h2>Contagem</h2>");
+
+        for (let i = 1; i <= 20; i++) {
+            document.write("Volta número " + i + "<br>");
+        }
+
+        document.write("Fim!");
+
+        document.write("<h2>De 10 em 10</h2>");
+        for (let i = 10; i <= 100; i += 10) {
+            document.write(i + "<br>");
+        }
+
+        // Ele deve começar no 10, porque o primeiro número da contagem é 10.
+
+        // Sem o i++, o i ficaria sempre valendo 1, a condição i <= 20 nunca ficaria falsa e o loop nunca pararia (loop infinito, a página travaria).
+    </script>
+</body>
+</html>

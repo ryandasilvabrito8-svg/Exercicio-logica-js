@@ -1,0 +1,17 @@
+1 Qual exercício você mais curtiu? E por quê?
+Eu mais curti o exercício 1, porque achei mais facil de compreender.
+
+2 De 1 a 5, quanto ficou claro?
+for: 3
+array: 2
+if / else: 3
+switch: 3
+
+3 Onde você mais travou? E o que te fez destravar?
+Eu travei mais no exercicio 7 . O que me ajudou a destravar foi pedir ajuda para o Claude, pedi explicação.
+
+4 Você usou IA? O que perguntou?
+Usei o Claude. Pedi ajuda para entender os exercícios, perguntei como fazer o "Escolha o seu plano". Também perguntei sobre erros pequenos, como os quadradinhos nos acentos e o nome do arquivo respostas.txt.
+
+5 O que você sonha criar com programação?
+Eu sonho criar sites para vender e fazer uma renda extra.

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio5</title>
+</head>
+<body>
+    <script>
+        let musicas = ["What a day", "Corra", "lamentações leall", "lagrimas negras", "preciso dizer que te amo"];
+
+        document.write("<h2>Minha playlist</h2>");
+
+        for (let i = 0; i < musicas.length; i++) {
+            document.write((i + 1) + ". " + musicas[i] + "<br>");
+        }
+
+        document.write("<p>Total: " + musicas.length + " músicas</p>");
+
+        // O for começa no 0 porque a primeira posição do array é a 0.
+        // Com <= o for dá uma volta a mais, em musicas[5] que não existe, e aparece "6. undefined".
+        // O for funciona sem mudar nada porque ele usa musicas.length, que se ajusta ao tamanho da lista.
+    </script>
+</body>
+</html>
